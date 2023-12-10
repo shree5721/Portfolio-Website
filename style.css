@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&family=Roboto&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+/* Header section */
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(18, 18, 62);
+    height: 70px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+}
+nav ul li a:hover{
+    color: rgb(67, 67, 170);
+}
+
+/* Middle section */
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.leftColumn h1{
+    font-size:41px ;
+}
+.leftColumn h1 span{
+    color: rgb(170, 107, 228);
+}
+.rightColumn img{
+    width: 400px;
+}
+.divider{
+    margin: 20px 70px ;
+}
+
+/* Skills section */
+
+.skillsection{
+    width: 80%;
+    margin: auto;
+}
+.skillsection .row{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.image img{
+    width: 131px;
+}
+.skillheader{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(170, 107, 228);;
+}
+ul li i{
+    margin-right: 10px;
+}
+.row h2{
+    color: rgb(170, 107, 228);;
+}
+
+/* Project Section */
+
+.projectSection{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.projectheader{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(170, 107, 228);
+}
+.projectName h3{
+    font-size: 22px;
+    color:rgb(109, 47, 166); ;
+}
+.projectDesc p{
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.projectsRow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    padding: 15px;
+    background-color:#55efc4;
+    margin: 20px 20px;
+    box-shadow: 0px 0px 8px rgb(113, 101, 101);
+    border-radius: 5px;
+    color: black;
+    width: 30%;
+}
+.sourceCode a{
+    text-decoration: none;
+    padding: 12px 18px;
+    display: inline-block;
+    background-color: #5f27cd;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sourceCode a:hover{
+    background-color: #5e27cdd3;
+}
