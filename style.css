@@ -31,7 +31,7 @@ nav {
   align-items: center;
   background-color: #ff8453f7;
   height: 70px;
-  box-shadow: 0px 0px 6px #b39090;
+  box-shadow: 0px 0px 6px #716b6b;
 }
 nav h2 {
   cursor: pointer;
@@ -103,7 +103,7 @@ section {
   background-color: #1076ba;
 }
 .leftColumn h1 span {
-  color: rgba(74, 74, 119, 0.714);
+  color: rgba(57, 57, 114, 0.714);
 }
 .leftColumn span i {
   font-size: 27px;
@@ -156,7 +156,7 @@ section {
   object-fit: cover;
 }
 .left_part {
-  width: 500px;
+  width: 580px;
 }
 .left_part p {
   color: #3c3e41;
@@ -345,4 +345,90 @@ p {
 }
 .contact_info .message p span{
     color: #1076ba;
+}
+.portfolio{
+  overflow: auto;
+}
+
+
+/* Media queries for responsive design */
+@media(max-width:1280px){
+  .projectSection{
+    width: 100%;
+  }
+  .projectSection .box{
+    width: 25%;
+  }
+  .projectsRow{
+    justify-content: center;
+  }
+  .skillsection{
+    width: 100%;
+  }
+
+}
+@media(max-width:992px){
+  nav h2{
+    font-size: 27px;
+  }
+  nav ul li a{
+    font-size: 14px;
+  }
+  .leftColumn h1{
+    font-size: 31px;
+  }
+  .leftColumn h1 span{
+    font-size: 45px;
+  }
+  .rightColumn img{
+    width: 290px;
+  }
+  .leftColumn .btn{
+    font-size: 15px;
+  }
+  .leftColumn span i{
+    font-size: 22px;
+  }
+  section{
+    height: 70vh;
+  }
+  .about_section .about_header{
+    font-size: 38px;
+  }
+  .left_part .hello {
+    font-size: 14px;
+  }
+  .left_part h1{
+    font-size: 40px;
+  }
+  .left_part p{
+    font-size: 15px;
+  }
+  .about_section .right_part img{
+    width: 260px;
+    height: 260px;
+  }
+  .skillheader{
+    font-size: 40px;
+  }
+  .projectSection{
+    width: 100%;
+  }
+  
+  .skillsection .column{
+    width: 225px;
+  }
+  .skillsection .column{
+    font-size: 15px;
+  }
+  .projectSection .box{
+    width: 25%;
+  }
+  .projectsRow{
+    justify-content: center;
+  }
+  .skillsection{
+    width: 100%;
+  }
+
 }
