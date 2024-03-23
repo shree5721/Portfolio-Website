@@ -11,7 +11,7 @@ html {
 }
 body {
   color: white;
-  background: #ecf0f3;
+  /* background: #ecf0f3; */
 }
 
 
@@ -19,7 +19,7 @@ body {
 
 header {
   position: fixed;
-  background-color: #fff;
+  /* background-color: #fff; */
   top: 0;
   left: 0;
   right: 0;
@@ -29,9 +29,10 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #ff8453f7;
+  /* background-color: #ff8453f7; */
+  background-color:#271b29;
   height: 70px;
-  box-shadow: 0px 0px 6px #716b6b;
+  box-shadow: 0px 0px 1px #e9d7d7;
 }
 nav h2 {
   cursor: pointer;
@@ -39,6 +40,7 @@ nav h2 {
 }
 nav h2 i {
   margin-left: 22px;
+  color: green;
 }
 nav ul {
   display: flex;
@@ -79,10 +81,16 @@ section {
   align-items: center;
   justify-content: space-around;
   height: 710px;
-  background-color: #ff9064;
+  /* background-color: #ff9064; */
+  background-image: url(./images/bg3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 .leftColumn h1 {
-  font-size: 45px;
+  font-size: 50px;
   cursor: pointer;
 }
 .leftColumn .cv-btn {
@@ -103,13 +111,13 @@ section {
   background-color: #1076ba;
 }
 .leftColumn h1 span {
-  color: rgba(57, 57, 114, 0.714);
+  color: rgba(197, 251, 2, 0.759);
 }
 .leftColumn span i {
   font-size: 27px;
-  margin-right: 15px;
+  margin-right: 22px;
   margin-top: 16px;
-  color: #232020;
+  color: beige;
   cursor: pointer;
   transition: all 0.8s;
 }
@@ -117,14 +125,14 @@ section {
   transform: scale(1.3);
 }
 .name {
-  font-size: 60px;
+  font-size: 65px;
 }
 #element {
   font-size: 50px;
 }
 
 .rightColumn img {
-  width: 400px;
+  width: 500px;
 }
 
 
@@ -134,7 +142,7 @@ section {
 .about_section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(to bottom, #c8cdd5, #e3e7ee);
+  background: linear-gradient(to bottom,#f1b3bb, #f5ebec);
 }
 .about_container {
   display: flex;
@@ -212,6 +220,7 @@ ul li i {
   border-radius: 20px;
   background: linear-gradient(145deg, #dce2e5, #f6f0f0);
   transition: all 0.8s;
+  cursor: pointer;
 }
 .skillsection .column:hover {
   transform: scale(1.08);
@@ -256,10 +265,11 @@ ul li i {
   border-radius: 20px;
   color: black;
   width: 30%;
-  height: 200px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
   transition: all 0.8s;
 }
 .box:hover {
