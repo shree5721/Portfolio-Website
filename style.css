@@ -37,10 +37,11 @@ nav {
 nav h2 {
   cursor: pointer;
   font-size: 35px;
+  letter-spacing: 1px;
 }
 nav h2 i {
   margin-left: 22px;
-  color: green;
+  color: rgba(197, 251, 2, 0.759);
 }
 nav ul {
   display: flex;
@@ -97,18 +98,18 @@ section {
   margin: 20px 0px;
 }
 .leftColumn .btn {
-  background-color: #3498db;
+  background-color: #3450db;
   border: none;
   outline: none;
   border-radius: 25px;
-  padding: 9px 12px;
+  padding: 9px 18px;
   outline: none;
   text-decoration: none;
   color: #fff;
-  transition: all 1s;
+  transition: all 0.6s;
 }
 .leftColumn .btn:hover {
-  background-color: #1076ba;
+  background-color: #2a0a9d;
 }
 .leftColumn h1 span {
   color: rgba(197, 251, 2, 0.759);
@@ -117,7 +118,7 @@ section {
   font-size: 27px;
   margin-right: 22px;
   margin-top: 16px;
-  color: beige;
+  color: wheat;
   cursor: pointer;
   transition: all 0.8s;
 }
@@ -142,7 +143,8 @@ section {
 .about_section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(to bottom,#f1b3bb, #f5ebec);
+  background: linear-gradient(to bottom,#f1b3bb, #fcf6f7);
+  
 }
 .about_container {
   display: flex;
@@ -274,6 +276,11 @@ ul li i {
 }
 .box:hover {
   transform: translateY(-17px);
+}
+.sourceCode{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .sourceCode a {
   text-decoration: none;
