@@ -11,7 +11,8 @@ html {
 }
 body {
   color: white;
-  /* background: #ecf0f3; */
+  /* background: #212020; */
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
 }
 
 
@@ -133,7 +134,10 @@ section {
 }
 
 .rightColumn img {
-  width: 500px;
+  width: 314px;
+  border-radius: 177px;
+  height: 326px;
+  object-fit: cover;
 }
 
 
@@ -143,7 +147,6 @@ section {
 .about_section {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(to bottom,#f1b3bb, #fcf6f7);
   
 }
 .about_container {
@@ -157,27 +160,28 @@ section {
   margin-bottom: 40px;
   font-size: 50px;
   font-weight: 700;
-  color: #3c3e41;
+  color: #fff;
 }
 .about_section .right_part img {
-  width: 314px;
+  width: 350px;
   border-radius: 177px;
-  height: 326px;
+  height: 362px;
   object-fit: cover;
 }
 .left_part {
-  width: 580px;
+  width: 700px;
 }
 .left_part p {
-  color: #3c3e41;
+  color: #ffffffc4;
   font-size: 19px;
 }
 .left_part .hello{
     font-size: 18px;
 }
 .left_part h1 {
-  font-size: 60px;
-  color: rgba(74, 74, 119, 0.714);
+  font-size: 70px;
+  color: orange;
+  font-weight: 800;
 }
 
 
@@ -203,25 +207,25 @@ section {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
-  color: #3c3e41;
+  color: #fff;
 }
 ul li {
-  color: black;
+  color:#fff;
   font-weight: 300;
 }
 ul li i {
   margin-right: 16px;
 }
 .row h2 {
-  color: #3c3e41;
+  color: #fff;
   font-weight: 400;
 }
 .skillsection .column {
-  box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
   padding: 30px 60px;
   border-radius: 20px;
-  background: linear-gradient(145deg, #dce2e5, #f6f0f0);
-  transition: all 0.8s;
+  /* background: black; */
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
+  transition: all 0.3s;
   cursor: pointer;
 }
 .skillsection .column:hover {
@@ -235,7 +239,7 @@ ul li i {
 .projectSection {
   width: 80%;
   margin: auto;
-  padding-top: 50px;
+  margin-top: 120px;
 }
 .projectheader {
   text-align: center;
@@ -243,16 +247,18 @@ ul li i {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
-  color: #3c3e41;
+  color: #fff;
 }
 .projectName h3 {
-  font-size: 22px;
-  color: #3c3e41;
+  font-size: 25px;
+  color: #ffffffed;
 }
 .projectDesc p {
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 8px;
   font-weight: 300;
+  color: #ffffffda;
+  font-weight: 600;
 }
 .projectsRow {
   display: flex;
@@ -260,19 +266,18 @@ ul li i {
   flex-wrap: wrap;
 }
 .box {
-  padding: 18px;
-  background: linear-gradient(145deg, #dce2e5, #f6f0f0);
+  padding: 22px;
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
   margin: 20px 20px;
-  box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
   border-radius: 20px;
-  color: black;
+  color: #fff;
   width: 30%;
   height: 220px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
-  transition: all 0.8s;
+  transition: all 0.5s;
 }
 .box:hover {
   transform: translateY(-17px);
@@ -292,7 +297,7 @@ ul li i {
   outline: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.8s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .sourceCode a:hover {
@@ -313,7 +318,7 @@ ul li i {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
-  color: #3c3e41;
+  color: #fff;
   padding-bottom: 40px;
 }
 .education_section {
@@ -323,14 +328,22 @@ ul li i {
   width: 100%;
 }
 .flex {
-  background: linear-gradient(145deg, #dde2e5, #f7f1f1);
-  box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
+  background: linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(71, 30, 84) 119.9%);
   padding: 20px 15px;
 }
-.education_section h2,
+.education_section h2
+{
+  color: #fff;
+}
+.education_section .cgpa{
+  color: #fff;
+  font-weight: 700;
+  font-size: 17px;
+}
 p {
-  color: #3c3e41;
+  color: #ffffffdd;
   line-height: 1.5;
+  margin-top:7px;
 }
 
 
@@ -341,11 +354,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color:#dee3e7;
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
     padding: 30px 0px 20px 0px;
 }
 .contact_info h3{
-    color: #3c3e41;
+    color: #fff;
     font-size: 24px;
     font-weight: 400;
 }
