@@ -172,8 +172,9 @@ section {
   width: 700px;
 }
 .left_part p {
-  color: #ffffffc4;
+  color: #ffffffcb;
   font-size: 19px;
+  text-align: justify;
 }
 .left_part .hello{
     font-size: 18px;
@@ -284,8 +285,7 @@ ul li i {
 }
 .sourceCode{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 20px;
 }
 .sourceCode a {
   text-decoration: none;
